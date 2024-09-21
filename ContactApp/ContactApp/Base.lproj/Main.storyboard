@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ContactApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fem-7i-oY8">
+                                <rect key="frame" x="152.66666666666666" y="99" width="88" height="88"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6a2-1T-bO7" userLabel="Contact">
+                                        <rect key="frame" x="24.333333333333346" y="33" width="39.333333333333343" height="22"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="6a2-1T-bO7" firstAttribute="centerX" secondItem="Fem-7i-oY8" secondAttribute="centerX" id="D0g-Q9-fuc"/>
+                                    <constraint firstAttribute="width" constant="88" id="VOM-Gh-hmK"/>
+                                    <constraint firstItem="6a2-1T-bO7" firstAttribute="centerY" secondItem="Fem-7i-oY8" secondAttribute="centerY" id="tZy-6m-RvS"/>
+                                    <constraint firstAttribute="height" constant="88" id="uaS-ul-TDD"/>
+                                    <constraint firstItem="6a2-1T-bO7" firstAttribute="top" secondItem="Fem-7i-oY8" secondAttribute="top" constant="33" id="wmz-Qw-YmV"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thiago Assis da Silva" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAh-fm-wbB" userLabel="Contact Name">
+                                <rect key="frame" x="59" y="203" width="275" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11 95050 0462" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxl-ev-9EG" userLabel="Contact Number">
+                                <rect key="frame" x="138.66666666666666" y="240.66666666666666" width="116" height="20.999999999999972"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="thiagoassis642@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwV-6e-JS1" userLabel="Contact Email">
+                                <rect key="frame" x="91.666666666666686" y="269.66666666666669" width="210" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kumon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvC-dP-BsT" userLabel="Contact Work">
+                                <rect key="frame" x="169.66666666666666" y="290" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DwV-6e-JS1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Mr-0J-JBP"/>
+                            <constraint firstItem="cxl-ev-9EG" firstAttribute="top" secondItem="AAh-fm-wbB" secondAttribute="bottom" constant="4" id="GSI-e4-blq"/>
+                            <constraint firstItem="Fem-7i-oY8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Oiz-LA-drw"/>
+                            <constraint firstItem="Fem-7i-oY8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WXh-ng-F1e"/>
+                            <constraint firstItem="cxl-ev-9EG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wmx-fp-Dxk"/>
+                            <constraint firstItem="AvC-dP-BsT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hks-Em-MpQ"/>
+                            <constraint firstItem="AAh-fm-wbB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jFC-Jl-qUE"/>
+                            <constraint firstItem="AvC-dP-BsT" firstAttribute="top" secondItem="DwV-6e-JS1" secondAttribute="bottom" id="n1p-uQ-cg9"/>
+                            <constraint firstItem="AAh-fm-wbB" firstAttribute="top" secondItem="Fem-7i-oY8" secondAttribute="bottom" constant="16" id="oX7-iF-HLw"/>
+                            <constraint firstItem="DwV-6e-JS1" firstAttribute="top" secondItem="cxl-ev-9EG" secondAttribute="bottom" constant="8" id="pHw-rp-JuS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="initialCircle" destination="Fem-7i-oY8" id="Osf-0O-nYx"/>
+                        <outlet property="initialLabel" destination="6a2-1T-bO7" id="La8-Zr-iLy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124.42748091603053" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+</document>
